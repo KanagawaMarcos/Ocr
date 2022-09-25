@@ -6,15 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="img\original.jpg" />
     <None Include="tessdata\eng.traineddata" />
     <None Include="tessdata\por.traineddata" />
     <Compile Include="Library.fs" />
   </ItemGroup>
 
+  <ItemGroup />
+
   <ItemGroup>
     <PackageReference Include="Tesseract" Version="4.1.1" />
   </ItemGroup>
-
-  <ItemGroup />
 
 </Project>
