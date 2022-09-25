@@ -12,10 +12,12 @@
     <Compile Include="Library.fs" />
   </ItemGroup>
 
-  <ItemGroup />
-
   <ItemGroup>
     <PackageReference Include="Tesseract" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="artifacts\" />
   </ItemGroup>
 
 </Project>
